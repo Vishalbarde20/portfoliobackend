@@ -28,7 +28,7 @@ mongoose.connect(dbConfig, { useNewUrlParser: true, useUnifiedTopology: true })
     });
 
 // Start the Server
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 10000;
 app.listen(port, '0.0.0.0', (err) => {
     if (err) {
         console.error('Failed to start server:', err);
